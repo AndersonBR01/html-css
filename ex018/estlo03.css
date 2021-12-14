@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Dancing+Script&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face{
+    font-family: 'love' ;
+    src:  url('love\ story.ttf')format("trutype");
+    font-weight: normal;
+    font-style: normal;
+
+
+  
+
+    
+
+}
+h1{
+    font-family: 'love ' ;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+}
+p{
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  font-weight: bolder;
+}

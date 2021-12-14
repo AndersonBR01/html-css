@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: rgba(87, 210, 30, 0.541);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-size: 1em ;
+    font: underline 
+}
+
+h1, h2{
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 136, 0, 0.562);
+    font-size: 2em;
+    font-weight: bolder;*/
+    font:italic normal 3em serif underline
+
+}
+p{
+    font:italic normal 2em italic
+
+}
