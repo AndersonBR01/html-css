@@ -15,7 +15,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: ;
+     
 }
 
 html,body{
@@ -66,17 +66,29 @@ section.normal{
 }
 
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.808);
+    
+    background-color: rgba(0, 0, 0, 0);
     color: white;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 section.imagem> p{
     width: 400px;
-    background-color: rgb(15, 9, 9);
+    background-color: rgba(15, 9, 9, 0.158);
+    text-shadow: 2px 2px 0 black;
 }
 
+section#img01{
+    background-image: url(..//imagens/background001.jpg);
+    background-position: right center;
+    
+}
 
+section#img02{
+    background-image: url(..//imagens/background002.jpg);
+}
 
 footer{
     background-color: black;
