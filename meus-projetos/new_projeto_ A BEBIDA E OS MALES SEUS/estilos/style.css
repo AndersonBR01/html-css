@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Varela+Round&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02:'Inter', sans-serif;
+    --fonte03:'Varela Round', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html,body{
+    min-width: 80vh;
+    background-color: darkturquoise;
+    font-family: 
+}
+
+header{
+    background-color: firebrick;
+    color: floralwhite;
+    text-align: center;
+}
+
+header > h1{
+    padding: 45px;
+    font-variant: var(--fonte01);
+    font-family: var(--fonte03);
+}
+
+header > p{
+    padding: 15px;
+
+}
+
+p{
+
+    font-size: 19px;
+    padding: 15px;
+}
+
+a{
+
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+a:hover{
+
+    text-decoration: underline;
+}
+
+section{
+
+   padding-top: 5vh;
+   padding-bottom: 5vh;
+   line-height: 2em;
+   font-family: var(--fonte02);
+   font-size: 20px;
+
+
+}
+
+
+section.normal{
+
+    background-color:white;
+    color: black
+}
+
+section.img{
+    background-color: rgba(248, 126, 104, 0.521);
+    color: rgb(255, 244, 244);
+    text-shadow: rgba(255, 0, 0, 0.144);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.img > p{
+    width: 400px;
+    background-color: rgba(196, 0, 0, 0.205);
+    
+}
+
+section#img001{
+
+    background-image: url(../img/img001.jpg);
+    background-position: center;
+
+}
+
+section#img002{
+     background-image: url(../img/img002.jpg);
+     background-position: center;
+}
+
+section#img003{
+    background-image: url(..//img/img003.jpg);
+    background-position: center;
+}
+
+footer{
+
+    background-color:firebrick;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
