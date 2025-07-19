@@ -1,0 +1,92 @@
+@charset "UTF-8";
+ /*Fontes */
+
+ @import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ /*
+ font-weight: 400;
+  font-style: normal;
+ */
+
+ :root{
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Special Gothic Expanded One", sans-serif;
+    --font03: "Bebas Neue", sans-serif;
+ }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ html, body {
+    min-height: 100vh;
+    background-color: #c22f2f;
+    font-family: var(--font02);
+ }
+
+ header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+ }
+
+ header > h1 {
+    padding-top: 10px;
+    font-variant: small-caps;
+    font-family: var(--font03);
+    font-size: 8vw;
+ }
+
+ header >p {
+    padding-bottom: 10px;
+ }
+
+ header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+header a:hover, footer a:hover {
+        text-decoration: underline;
+        color: rgba(158, 238, 105, 0.308);
+}
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 45px;
+    line-height: 2em;
+    font-family: var(--font03);
+    font-size: 3.5vw;
+    font-variant: normal;
+    min-width:600px;/* observação*/
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+section.normal {
+
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+    
+}
+
+section#img01{
+    background-image: url(../imagens/img01.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+
+}
