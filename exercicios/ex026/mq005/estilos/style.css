@@ -4,4 +4,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: rgba(186, 219, 229, 0.548);
+}
+
+header {
+    background-color: lightgreen;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span#burger {
+    background-color: rgb(35, 36, 35);
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background-color: rgb(86, 86, 86);
+    color: black;
+}
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 9px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(86, 131, 86, 0.486);
+    color: white;
+    border-top: 2px solid white;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgba(108, 240, 108, 0.747);
+}
+
+main {
+    width: 90vw;
+    background-color: #ffffff83;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px 5px;
+}
+
+article > h2 {
+    padding-bottom: 20px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
