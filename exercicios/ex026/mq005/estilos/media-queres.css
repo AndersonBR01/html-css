@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    span#burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    } 
+
+    menu > ul > li {
+        display: inline-block;
+        background-color: blue;
+        border-radius: 1px 10px;
+    }
+
+    menu {
+        width: 768px;
+        color: violet;
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
+
