@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*Configurção de fontes
+
+//<weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+p, h1, h2 {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Montserrat Underline', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+header, section.normal {
+    padding: 20px;
+}
+
+section.flex-content {
+    padding: 20px;
+    background-color: rgba(48, 124, 150, 0.534);
+}
