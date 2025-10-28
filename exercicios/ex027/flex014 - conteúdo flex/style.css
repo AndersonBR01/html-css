@@ -2,15 +2,47 @@
 
 /*Configurção de fontes
 
-//<weight>: Use a value from 100 to 900
+// <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
 
-font-family: "Montserrat Underline", sans-serif;
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-medium-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.montserrat-alternates-semibold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+/*titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*paragrafo*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,500;0,600;1,500;1,600&display=swap');
 
 * {
     margin: 0;
@@ -24,8 +56,15 @@ p, h1, h2 {
     text-align: justify;
 }
 
+p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+}
 body {
-    font-family: 'Montserrat Underline', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1em;
     line-height: 1.5em;
 }
@@ -38,4 +77,47 @@ header, section.normal {
 section.flex-content {
     padding: 20px;
     background-color: rgba(48, 124, 150, 0.534);
+
+    display: flex;
+    flex-flow: column nowrap ;
+}
+
+
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse ;
+      justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px
+}
+
+article > div.media {
+    flex: 1 0 500px;
+    
+}
+
+div.media > img {
+    display: block;
+    margin:auto;
+    width: 300px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.media > iframe {
+    display: block;
+    margin:auto;
+    padding: 0px 20px;
+
+    width: 90%;
 }
